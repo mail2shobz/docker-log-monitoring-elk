@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+ redis:
+  image: redis:4.0
+  container_name: app_redis
+  ports:
+    - "6382:6379"
+  logging:
+      driver: gelf
+      options:
+        gelf-address: "udp://localhost:12201"
