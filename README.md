@@ -1,5 +1,4 @@
 # docker-log-monitoring-elk
 
-Steps
-run the docker-compose.yaml first
-run demo apps html and redis 
+Steps:
+Run the docker-compose.yaml first and  then run demo apps html and redis 
